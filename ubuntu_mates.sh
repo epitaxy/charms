@@ -6,7 +6,7 @@ sudo sed -i 's/archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list
 
 # essential packages
 sudo apt update
-sudo apt install -y nnn zsh ncdu htop rsync git vim
+sudo apt install -y nnn zsh ncdu htop rsync git vim tmux
 
 # Installation of om my zsh 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
