@@ -1,4 +1,4 @@
-# THis is workaround using MKL library in AMD PC
+# THis is workaround using MKL library in AMD node
 export MKL_DEBUG_CPU_TYPE=5
 export MKL_CBWR=AUTO
 
@@ -13,6 +13,7 @@ export OMP_NUM_THREADS=1
 export OMPI_MCA_mca_btl_base_warn_component_unused=0
 
 # remove FORTRAN STOP message when nvfortran job finishes
+# It can be ignored because this is not error.
 export NO_STOP_MESSAGE=1
 
 # For Quantum Espresso
