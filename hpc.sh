@@ -1,3 +1,6 @@
+# Install the required packages
+sudo apt install slurm-client mpi-default-bin slurm-wlm-torque
+
 # THis is workaround using MKL library in AMD node
 export MKL_DEBUG_CPU_TYPE=5
 export MKL_CBWR=AUTO
