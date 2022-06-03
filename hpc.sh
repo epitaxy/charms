@@ -29,3 +29,6 @@ export ESPRESSO_PSEUDO='/mnt/hpc/pseudo/'
 
 # Conda environment
 export PATH=/home/$USER/miniconda3/bin:/mnt/hpc/pkgs/pwtk-2.0:$PATH
+
+# Install QE through conda
+conda install -c conda-forge qe
