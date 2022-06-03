@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Install the required packages
 sudo apt install slurm-client mpi-default-bin slurm-wlm-torque
 
@@ -23,4 +25,4 @@ export NO_STOP_MESSAGE=1
 export ESPRESSO_PSEUDO='/mnt/hpc/pseudo/'
 
 # Conda environment
-export PATH=/home/$user/miniconda3/bin:/mnt/hpc/pkgs/pwtk-2.0:$PATH
+export PATH=/home/$USER/miniconda3/bin:/mnt/hpc/pkgs/pwtk-2.0:$PATH
