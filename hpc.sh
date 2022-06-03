@@ -21,6 +21,9 @@ export OMPI_MCA_mca_btl_base_warn_component_unused=0
 # It can be ignored because this is not error.
 export NO_STOP_MESSAGE=1
 
+# Install Miniconda
+bash /mnt/hpc/pkgs/Miniconda3-latest-Linux-x86_64.sh
+
 # For Quantum Espresso
 export ESPRESSO_PSEUDO='/mnt/hpc/pseudo/'
 
